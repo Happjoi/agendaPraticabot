@@ -1,4 +1,4 @@
-# 🤖 AgendaBot - Assistente de Agendamento para Telegram
+# 🤖 agendaPraticaBot - Assistente de Agendamento para Telegram
 
 Um chatbot simples para Telegram que ajuda você a gerenciar seus compromissos e eventos pessoais.
 
