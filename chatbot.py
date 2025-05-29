@@ -18,14 +18,14 @@ from dotenv import load_dotenv
 
 # Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Token será lido do arquivo .env
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  
 
 # Configurações
 DB_NAME = "agendamentos.db"
 
 # Estados da conversa
 DATA, DESCRICAO = range(2)
-ESCOLHER_EVENTO = range(1)  # Novo estado para remoção
+ESCOLHER_EVENTO = range(1)  
 
 # Configurar logging
 logging.basicConfig(
